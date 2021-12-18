@@ -13,6 +13,14 @@ const Hero = () => {
             /images/hero-img@3x.avif 3x
           "
         />
+        <source
+          type="image/jpeg"
+          srcset="
+            /images/hero-img.jpg 1x,
+            /images/hero-img@2x.jpg 2x,
+            /images/hero-img@3x.jpg 3x
+          "
+        />
         <HeroImage src="/images/hero-img.jpg" alt="hero"/>
       </picture>
       <Swoop src="/swoop.svg" />
