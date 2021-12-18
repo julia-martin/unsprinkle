@@ -40,9 +40,6 @@ const Image = styled.img`
 `;
 
 const Tags = styled.ul`
-  // display: flex;
-  // flex-wrap: wrap;
-  // gap: 8px;
   overflow: hidden;
   white-space: nowrap;
 `;
