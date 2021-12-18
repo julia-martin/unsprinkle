@@ -12,7 +12,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
              ${src.replace('.jpg', '@2x.avif')} 2x,
              ${src.replace('.jpg', '@3x.avif')} 3x`}
           />
-          <Image src={src} />
+          <Image src={src} alt="grid photo" />
         </picture>
       </Anchor>
       <Tags>
